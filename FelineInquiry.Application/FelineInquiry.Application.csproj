@@ -14,4 +14,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FelineInquiry.Core\FelineInquiry.Core.csproj" />
+    <ProjectReference Include="..\FelineInquiry.Domain\FelineInquiry.Domain.csproj" />
+    <ProjectReference Include="..\FelineInquiry.Root\FelineInquiry.Root.csproj" />
+  </ItemGroup>
+
 </Project>

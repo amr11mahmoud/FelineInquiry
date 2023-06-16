@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FelineInquiry.Core\FelineInquiry.Core.csproj" />
     <ProjectReference Include="..\FelineInquiry.Data\FelineInquiry.Data.csproj" />
+    <ProjectReference Include="..\FelineInquiry.Domain\FelineInquiry.Domain.csproj" />
   </ItemGroup>
 
 </Project>

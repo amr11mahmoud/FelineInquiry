@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FelineInquiry.Application</name>
+    </assembly>
+    <members>
+        <member name="M:FelineInquiry.Application.Controllers.UsersController.Register(FelineInquiry.Core.DTOs.Users.RegisterDto)">
+            <summary>
+            Register new user using registerDto model
+            </summary>
+            <param name="input"> Represnts Accepted JSON object to register new User </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
